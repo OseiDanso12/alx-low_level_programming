@@ -1,11 +1,10 @@
 #include <unistd.h>
-/**
- * main - prints "and that piece of art is useful" - Dora Korpar, 2015-10-19"
- * followed by a newline, to standard error.
- * Return: 1 (success)
+/**main - prints "and that piece of art is unseful" -Dora korpar, 2015-10-19",
+ * followed by a newline, to standard error
+ * Return: 1 (Sccess)
  */
-int mai(void)
+int main(void)
 {
-	write(and that piece of art is useful\" - Dora Korpar, 2015-10-19);
+	write(2, "and that piece of art is useful\" -Dora kopar, 2015-10-19\n", 59);
 	return (1);
 }
