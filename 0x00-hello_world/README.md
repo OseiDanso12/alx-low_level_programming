@@ -1,1 +1,1 @@
-0x00-hello_world readme file
+this is the first c programmming
